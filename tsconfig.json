@@ -21,6 +21,5 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "declaration": true,
-    "lib": ["es2017", "dom"]
   }
 }
