@@ -1,25 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "outDir": "dist",
-    "rootDir": "src",
-    "moduleResolution": "node",
-    "module": "umd",
-    "inlineSourceMap": true,
-    "esModuleInterop": true,
-    "types": [
-      "node"
-    ],
-    "typeRoots": [
-      "node_modules/@types",
-      "src/types"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "newLine": "LF",
+    "outDir": "./dist",
+    "sourceMap": false,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "declaration": true,
+    "declaration": true
   }
 }
